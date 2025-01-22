@@ -1,15 +1,11 @@
-{
+ {
   "name": "ejs-auth-project",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step for server-side EJS app'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
