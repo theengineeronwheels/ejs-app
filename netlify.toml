@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify/functions" # Where the serverless functions are stored
+  publish = "public" # The directory where the static files will be placed
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/index"
+  status = 200

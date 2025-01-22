@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Welcome to the EJS Auth Project</h1>
+    <% if (user) { %>
+        <p>Hello, <%= user.first_name %>!</p>
+        <a href="/members">Go to Members Area</a>
+        <a href="/logout">Logout</a>
+    <% } else { %>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+    <% } %>
+</body>
+</html>
